@@ -43,6 +43,19 @@ p {
   margin: 40px 0;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -261,4 +274,38 @@ body {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+
+/*Call to Action Banner*/
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(Images/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+#banner h2 {
+  color: #fff;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: #ef3636;
+}
+
+#banner button:hover {
+  background-color: #088178;
+  color: #fff;
 }
